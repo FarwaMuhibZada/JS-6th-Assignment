@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40% !important;
+    margin: 40px auto !important;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    border-radius:20px ;
+     align-items: center;
+     text-align: center;
+     padding: 70px;
+}
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.msg{
+    font-weight: bold;
+}
+
+#resetBtn{
+    display:none;
+}
